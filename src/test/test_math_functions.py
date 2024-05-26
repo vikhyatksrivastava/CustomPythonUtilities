@@ -1,7 +1,7 @@
 # test_math_operations.py
 
 import unittest
-from math_functions import calculate_square_of_the_number
+from src.main.math_functions import calculate_square_of_the_number
 
 
 class TestMathOperations(unittest.TestCase):
