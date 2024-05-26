@@ -28,8 +28,6 @@ class TestMathOperations(unittest.TestCase):
         except AssertionError:
             print("Test case test_square_zero failed!")
 
-
-
     def test_sqrt_positive_number(self):
         try:
             self.assertEqual(calculate_square_root_of_the_number(4), 2)
@@ -37,7 +35,6 @@ class TestMathOperations(unittest.TestCase):
             print("Test case test_sqrt_positive_number passed!")
         except AssertionError:
             print("Test case test_sqrt_positive_number failed!")
-
 
     def test_sqrt_negative_number(self):
         #self.assertNotEquals(calculate_square_root_of_the_number(-225), 15)
