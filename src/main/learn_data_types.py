@@ -85,3 +85,12 @@ def test_sequence():
     print("This is my range between 10 to 5", range(10, 5))
     print("This is my range between 1 to 5", range(1, 5))
     print("This is my range between -3 to 8", range(-3, 8))
+
+def main():
+    test_string()
+    test_numeric()
+    test_sequence()
+
+
+if __name__ == '__main__':
+    main()

@@ -4,11 +4,11 @@ import logging
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
-
 my_list = ["Citi", "LBG", "Roche", "LBG"]
 my_tuple = ("Cricket", "Badminton", "BasketBall", "BaseBall", "FootBall", "Cricket")
 my_range = range(10)
 my_dictionary = {"language": "Python", "version": "3.6"}
+
 
 def test_for_loop_on_list():
     logger.info("Testing For Loop on List.")
@@ -47,6 +47,7 @@ def test_while_on_range():
         if i % 2 == 0:
             print(f"{i} is even number")
 
+
 def main():
     test_for_loop_on_list()
     test_for_loop_on_tuple()
@@ -54,6 +55,7 @@ def main():
     test_for_loop_on_range()
     test_while_loop()
     test_while_on_range()
+
 
 if __name__ == '__main__':
     main()
