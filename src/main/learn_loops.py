@@ -43,17 +43,24 @@ def test_while_loop():
 
 def test_while_on_range():
     i = 0
-    while i not in my_range:
+    while i in my_range:
         if i % 2 == 0:
             print(f"{i} is even number")
+        i = i + 1
 
 
 def main():
+    print("----------------Call of test_for_loop_on_list----------------")
     test_for_loop_on_list()
+    print("----------------Call of test_for_loop_on_tuple----------------")
     test_for_loop_on_tuple()
+    print("----------------Call of test_for_loop_on_dictionary----------------")
     test_for_loop_on_dictionary()
+    print("----------------Call of test_for_loop_on_range----------------")
     test_for_loop_on_range()
+    print("----------------Call of test_while_loop----------------")
     test_while_loop()
+    print("----------------Call of test_while_on_range----------------")
     test_while_on_range()
 
 

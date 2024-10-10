@@ -1,0 +1,51 @@
+import pandas as pd
+import random
+import string
+import names
+
+
+# def generate_random_name():
+#     return ''.join(random.choices(string.ascii_uppercase + string.ascii_lowercase, k=10))
+#
+#
+# # Generate a list of 1500 employee records
+# data = []
+# for i in range(1500):
+#     data.append({
+#         'emp_id': i + 1,
+#         'emp_name': generate_random_name(),
+#         'dept_name': random.choice(['Sales', 'Marketing', 'HR', 'IT', 'Finance']),
+#         'salary': random.randint(30000, 100000)
+#     })
+#
+# # Create a pandas DataFrame from the data
+# df = pd.DataFrame(data)
+#
+# # Save the DataFrame as a CSV file
+# df.to_csv('employee_data.csv', index=False)
+#
+# print("CSV file 'employee_data.csv' created successfully!")
+
+import names
+import csv
+import random
+
+# Generate 100 random names
+names_list = [names.get_full_name() for _ in range(100)]
+
+# Generate random designations
+designations = ['Software Engineer', 'Project Manager', 'Data Analyst', 'Sales Representative', 'HR Manager', 'Marketing Specialist']
+
+# Generate random salaries between 30,000 and 100,000
+salaries = [random.randint(30000, 100000) for _ in range(100)]
+
+# Create random employee records
+employee_data = [[i, name, random.choice(designations), random.choice([True, False]), salary] for i, name, salary in zip(range(1, 101), names_list, salaries)]
+
+# Write the employee data to a CSV file
+with open('employee_data.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(['employee_id', 'employee_name', 'designation', 'is_manager', 'salary'])
+    writer.writerows(employee_data)
+
+print("CSV file created successfully!")
