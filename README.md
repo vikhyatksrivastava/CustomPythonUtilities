@@ -1,14 +1,42 @@
 # CustomerPythonUtilities
- 
-This Repository has been created with the objective of practicing the Python functions and utilities. Details of the code python files and their purpose is mentioned below:
 
-1. src/main/main.py -> Objective is to learn and test python main function.
-2. src/main/math_functions.py -> Objective is to learn and test python math package.
-3. src/main/ReadTextFile.py -> Objective is to learn and test how to read csv file into dataframe.
-4. src/mian/learn_data_types.py -> Objective is to learn and test various data types allowed in python.
-5. src/mian/learn_loops.py -> Objective is to learn and test various loops allowed in python.
-6. src/test/test_math_operations.py -> Objective is to test the functions and modules written in src/main/math_functions.py using TDD.
+This repository has been created with the objective of practicing Python functions and utilities. Details of the source files and their purpose are listed below:
 
-# Software Stack on which code is tested:
+## Source Files (`src/main/`)
 
-1. Python: 3.6
+| File | Purpose |
+|------|---------|
+| `main.py` | Learn and test Python main function |
+| `math_functions.py` | Learn and test Python math package |
+| `ReadTextFile.py` | Learn and test how to read a CSV file into a DataFrame |
+| `read_from_csv_file.py` | Read CSV files using PySpark |
+| `learn_data_types.py` | Learn and test various data types in Python |
+| `learn_loops.py` | Learn and test various loop constructs in Python |
+| `test_for_conditions.py` | Learn and test conditional statements in Python |
+| `listOperation.py` | Learn and test list operations in Python |
+| `count_elements.py` | Count frequency of elements in a list |
+| `calulate_number_of_changes.py` | Calculate minimum number of currency notes for a given amount |
+| `patternprint.py` | Pattern printing problems (e.g., cross counting in a grid) |
+| `numpy_tutorials.py` | Learn and test NumPy arrays and operations |
+| `lambda_titorial.py` | Learn and test Python lambda functions |
+| `pyspark_tutorial.py` | Learn and test PySpark SQL queries and transformations |
+| `learning_pyspark.py` | Additional PySpark learning exercises |
+| `pysprk_gcp_explore.py` | Explore PySpark integration with Google Cloud Platform |
+| `interview_problems.py` | Common coding interview problems |
+| `python_interview_programs.py` | Additional Python interview programs (e.g., prime number detection) |
+| `hashtotest.py` | Hash cracker utility — attempts to find original text for a given hash using a wordlist |
+
+## Test Files (`src/test/`)
+
+| File | Purpose |
+|------|---------|
+| `test_math_functions.py` | Unit tests for `math_functions.py` using TDD |
+| `test_data_type.py` | Unit tests for data type operations |
+| `test_for_loop.py` | Unit tests for loop constructs |
+| `test_lambda.py` | Unit tests for lambda function exercises |
+
+## Software Stack
+
+- Python 3.6+
+- NumPy
+- PySpark
