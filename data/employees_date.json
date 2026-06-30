@@ -1,0 +1,92 @@
+[
+  {
+    "employee_id": 101,
+    "name": "Amit Sharma",
+    "age": 29,
+    "department": "Engineering",
+    "salary": 85000,
+    "city": "Bangalore",
+    "joining_date": "2020-03-15"
+  },
+  {
+    "employee_id": 102,
+    "name": "Priya Verma",
+    "age": 32,
+    "department": "HR",
+    "salary": 62000,
+    "city": "Mumbai",
+    "joining_date": "2019-07-10"
+  },
+  {
+    "employee_id": 103,
+    "name": "Rohit Singh",
+    "age": 27,
+    "department": "Finance",
+    "salary": 72000,
+    "city": "Delhi",
+    "joining_date": "2021-01-05"
+  },
+  {
+    "employee_id": 104,
+    "name": "Sneha Nair",
+    "age": 30,
+    "department": "Engineering",
+    "salary": 90000,
+    "city": "Hyderabad",
+    "joining_date": "2018-11-20"
+  },
+  {
+    "employee_id": 105,
+    "name": "Karan Patel",
+    "age": 26,
+    "department": "Marketing",
+    "salary": 55000,
+    "city": "Ahmedabad",
+    "joining_date": "2022-04-12"
+  },
+  {
+    "employee_id": 106,
+    "name": "Neha Gupta",
+    "age": 31,
+    "department": "Sales",
+    "salary": 68000,
+    "city": "Pune",
+    "joining_date": "2017-09-18"
+  },
+  {
+    "employee_id": 107,
+    "name": "Vikram Rao",
+    "age": 34,
+    "department": "Engineering",
+    "salary": 110000,
+    "city": "Chennai",
+    "joining_date": "2016-02-25"
+  },
+  {
+    "employee_id": 108,
+    "name": "Anjali Mehta",
+    "age": 28,
+    "department": "Finance",
+    "salary": 75000,
+    "city": "Kolkata",
+    "joining_date": "2020-08-30"
+  },
+  {
+    "employee_id": 109,
+    "name": "Suresh Kumar",
+    "age": 40,
+    "department": "Operations",
+    "salary": 95000,
+    "city": "Jaipur",
+    "joining_date": "2015-05-14"
+  },
+  {
+    "employee_id": 110,
+    "name": "Divya Reddy",
+    "age": 25,
+    "department": "Marketing",
+    "salary": 52000,
+    "city": "Hyderabad",
+    "joining_date": "2023-01-09"
+  }
+]
